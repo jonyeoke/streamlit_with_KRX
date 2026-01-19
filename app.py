@@ -39,8 +39,9 @@ jan_1 = datetime.date(today.year, 1, 1)
 
 # 사이드바 설정
 st.sidebar.header("조회 조건 설정")
-company_name_input = st.sidebar.text_input('조회할 회사를 입력하세요 (쉼표로 구분)' \
-'ex) 삼성전자, LG, SK하이닉스')
+company_name_input = st.sidebar.text_input(
+    '조회할 회사를 입력하세요 (쉼표로 구분)<br>ex) 삼성전자, LG, SK하이닉스'
+)
 selected_dates = st.sidebar.date_input(
     "조회할 기간을 선택하세요",
     (jan_1, today),
