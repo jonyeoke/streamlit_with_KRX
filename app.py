@@ -50,7 +50,7 @@ st.sidebar.header("조회 조건 설정")
 
 # <br> 태그를 사용하여 줄바꿈 적용
 company_name_input = st.sidebar.text_input(
-    '조회할 회사를 입력하세요 (쉼표로 구분)<br>ex) 삼성전자, LG, SK하이닉스'
+    '조회할 회사를 입력하세요 (쉼표로 구분)\n\nex) 삼성전자, LG, SK하이닉스'
 )
 
 selected_dates = st.sidebar.date_input(
