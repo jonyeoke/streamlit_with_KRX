@@ -3,6 +3,6 @@
 
 # 폴더명/
 .venv/
-.devcontatiner/
+.devcontainer/
 # 정규식을 사용 가능
 *.txt
